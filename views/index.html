@@ -16,7 +16,7 @@
 <!-- bootsrtap CSS -->
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css">
 
-<title>나의 전자기갑</title>
+<title>강성규</title>
 
 
 <script>
@@ -28,7 +28,7 @@ $(document).ready(function(){
 
   $('#newAccount').on('click', function(){
     let account = web3.eth.accounts.create();
-    if (DEBUG) console.log("privateKey : ", account.privateKey);'	   
+    if (DEBUG) console.log("privateKey : ", account.privateKey);	   
     if (DEBUG) console.log("account : ", account.address);
 	  
     $('#fromaddress').val(account.address);
